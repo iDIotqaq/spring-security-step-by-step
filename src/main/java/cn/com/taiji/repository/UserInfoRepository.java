@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Date: 2018/12/11 10:45
  * @Version 1.0
  */
-public interface UserInfoRepository extends JpaRepository<UserInfo,String> {
+public interface UserInfoRepository extends JpaRepository<UserInfo,Long> {
     /**
      * 根据用户名查找
      * @param username
